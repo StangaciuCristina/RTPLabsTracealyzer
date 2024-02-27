@@ -1,0 +1,3 @@
+../Core/Src/application1.c:12:6:vTask1	24	static
+../Core/Src/application1.c:34:6:vTask2	24	static
+../Core/Src/application1.c:55:6:application1	16	static
