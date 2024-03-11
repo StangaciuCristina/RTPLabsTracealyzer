@@ -11,8 +11,8 @@
 #define ORANGE_LED LD3_Pin
 
 /* The periods assigned to the one-shot and auto-reload timers respectively. */
-#define mainONE_SHOT_TIMER_PERIOD		( pdMS_TO_TICKS( 3333UL ) )
-#define mainAUTO_RELOAD_TIMER_PERIOD	( pdMS_TO_TICKS( 500UL ) )
+#define mainONE_SHOT_TIMER_PERIOD		( pdMS_TO_TICKS( 333UL ) )
+#define mainAUTO_RELOAD_TIMER_PERIOD	( pdMS_TO_TICKS( 50UL ) )
 
 
 static void prvOneShotTimerCallback( TimerHandle_t xTimer )

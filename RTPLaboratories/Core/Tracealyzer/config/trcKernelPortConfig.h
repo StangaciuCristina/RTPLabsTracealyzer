@@ -113,7 +113,7 @@ extern "C" {
  * traceQUEUE_SEND to traceQUEUE_SET_SEND in order to tell them apart from
  * other traceQUEUE_SEND trace points. Then set this to TRC_ACKNOWLEDGED.
  */
-#define TRC_CFG_ACKNOWLEDGE_QUEUE_SET_SEND  0 /* TRC_ACKNOWLEDGED */
+#define TRC_CFG_ACKNOWLEDGE_QUEUE_SET_SEND  TRC_ACKNOWLEDGED
 
 #ifdef __cplusplus
 }

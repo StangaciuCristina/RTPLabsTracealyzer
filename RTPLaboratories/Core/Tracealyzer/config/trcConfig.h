@@ -116,6 +116,7 @@ extern "C" {
  */
 #define TRC_CFG_INCLUDE_ISR_TRACING 1
 
+
 /**
  * @def TRC_CFG_INCLUDE_READY_EVENTS
  * @brief Macro which should be defined as either zero (0) or one (1).
