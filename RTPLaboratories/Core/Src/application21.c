@@ -19,7 +19,7 @@
 gatekeeper. */
 static const int Delays[] =
 {
-	1000,100,10
+	100,50,10
 };
 
 unsigned int rand (void)

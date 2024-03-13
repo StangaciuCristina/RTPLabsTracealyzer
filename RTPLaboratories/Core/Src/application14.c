@@ -11,8 +11,8 @@
 #define ORANGE_LED LD3_Pin
 
 /* The periods assigned to the one-shot and auto-reload timers respectively. */
-#define mainONE_SHOT_TIMER_PERIOD		( pdMS_TO_TICKS( 3333UL ) )
-#define mainAUTO_RELOAD_TIMER_PERIOD	( pdMS_TO_TICKS( 500UL ) )
+#define mainONE_SHOT_TIMER_PERIOD		( pdMS_TO_TICKS( 333UL ) )
+#define mainAUTO_RELOAD_TIMER_PERIOD	( pdMS_TO_TICKS( 50UL ) )
 
 /* The timer handles are used inside the callback function so this time are
 given file scope. */
@@ -50,7 +50,7 @@ uint32_t ulExecutionCount;
 		//toggle led
 		HAL_GPIO_TogglePin(GPIOD, GREEN_LED);
 
-		if( ulExecutionCount == 10 )
+		if( ulExecutionCount == 100 )
 		{
 			/* Stop the auto-reload timer after it has executed 5 times.  This
 			callback function executes in the context of the RTOS daemon task so

@@ -50,7 +50,7 @@ void vApplicationGetTimerTaskMemory( StaticTask_t ** ppxTimerTaskTCBBuffer,
 static void vIntegerGenerator( void *pvParameters )
 {
 TickType_t xLastExecutionTime;
-const TickType_t xDelay200ms = pdMS_TO_TICKS( 200UL ), xDontBlock = 0;
+const TickType_t xDelay = pdMS_TO_TICKS( 20UL ), xDontBlock = 0;
 uint32_t ulValueToSend = 0;
 BaseType_t i;
 
@@ -61,7 +61,7 @@ BaseType_t i;
 	{
 		/* This is a periodic task.  Block until it is time to run again.
 		The task will execute every 200ms. */
-		vTaskDelayUntil( &xLastExecutionTime, xDelay200ms );
+		vTaskDelayUntil( &xLastExecutionTime, xDelay );
 
 		/* Send five numbers to the queue, each value one higher than the
 		previous value.  The numbers are read from the queue by the interrupt

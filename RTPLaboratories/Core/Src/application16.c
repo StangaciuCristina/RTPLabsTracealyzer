@@ -62,13 +62,13 @@ static void vHandlerTask( void *pvParameters )
 
 static void vPeriodicTask( void *pvParameters )
 {
-const TickType_t xDelay500ms = pdMS_TO_TICKS( 500UL );
+const TickType_t xDelay = pdMS_TO_TICKS( 50UL );
 
 	/* As per most tasks, this task is implemented within an infinite loop. */
 	for( ;; )
 	{
 
-		vTaskDelay( xDelay500ms );
+		vTaskDelay( xDelay );
 
 		HAL_GPIO_TogglePin(GPIOD, GREEN_LED);
 	}

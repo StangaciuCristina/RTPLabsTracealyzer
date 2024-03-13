@@ -11,7 +11,7 @@
 #define ORANGE_LED LD3_Pin
 
 /* The periods assigned to the one-shot timer. */
-#define mainBACKLIGHT_TIMER_PERIOD		( pdMS_TO_TICKS( 5000UL ) )
+#define mainBACKLIGHT_TIMER_PERIOD		( pdMS_TO_TICKS( 500UL ) )
 
 
 

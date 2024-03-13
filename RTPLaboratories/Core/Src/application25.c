@@ -22,7 +22,7 @@
 #define mainTHIRD_TASK_BIT	( 1UL << 2UL ) /* Event bit 2, which is set by the third task. */
 
 /* The rate at which the periodic task generates software interrupts. */
-static const TickType_t xInterruptFrequency = pdMS_TO_TICKS( 500UL );
+static const TickType_t xInterruptFrequency = pdMS_TO_TICKS( 50UL );
 
 /* Stores the handle of the task to which interrupt processing is deferred. */
 static TaskHandle_t xHandlerTask = NULL;

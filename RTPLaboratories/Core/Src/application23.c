@@ -72,8 +72,8 @@ static void prvSRand( uint32_t ulSeed )
 static void vSyncingTask1( void *pvParameters )
 {
 const EventBits_t uxAllSyncBits = ( mainFIRST_TASK_BIT | mainSECOND_TASK_BIT | mainTHIRD_TASK_BIT );
-const TickType_t xMaxDelay = pdMS_TO_TICKS( 4000UL );
-const TickType_t xMinDelay = pdMS_TO_TICKS( 200UL );
+const TickType_t xMaxDelay = pdMS_TO_TICKS( 100UL );
+const TickType_t xMinDelay = pdMS_TO_TICKS( 50UL );
 TickType_t xDelayTime;
 EventBits_t uxThisTasksSyncBit;
 
@@ -128,8 +128,8 @@ EventBits_t uxThisTasksSyncBit;
 static void vSyncingTask2( void *pvParameters )
 {
 const EventBits_t uxAllSyncBits = ( mainFIRST_TASK_BIT | mainSECOND_TASK_BIT | mainTHIRD_TASK_BIT );
-const TickType_t xMaxDelay = pdMS_TO_TICKS( 4000UL );
-const TickType_t xMinDelay = pdMS_TO_TICKS( 200UL );
+const TickType_t xMaxDelay = pdMS_TO_TICKS( 100UL );
+const TickType_t xMinDelay = pdMS_TO_TICKS( 50UL );
 TickType_t xDelayTime;
 EventBits_t uxThisTasksSyncBit;
 
@@ -184,8 +184,8 @@ EventBits_t uxThisTasksSyncBit;
 static void vSyncingTask3( void *pvParameters )
 {
 const EventBits_t uxAllSyncBits = ( mainFIRST_TASK_BIT | mainSECOND_TASK_BIT | mainTHIRD_TASK_BIT );
-const TickType_t xMaxDelay = pdMS_TO_TICKS( 4000UL );
-const TickType_t xMinDelay = pdMS_TO_TICKS( 200UL );
+const TickType_t xMaxDelay = pdMS_TO_TICKS( 100UL );
+const TickType_t xMinDelay = pdMS_TO_TICKS( 50UL );
 TickType_t xDelayTime;
 EventBits_t uxThisTasksSyncBit;
 

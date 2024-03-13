@@ -1,0 +1,4 @@
+../Core/Src/application12.c:32:13:vSenderTask1	24	static
+../Core/Src/application12.c:55:13:vSenderTask2	24	static
+../Core/Src/application12.c:77:13:vReceiverTask	24	static
+../Core/Src/application12.c:108:6:application12	16	static
