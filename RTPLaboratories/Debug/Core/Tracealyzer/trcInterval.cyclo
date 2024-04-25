@@ -1,0 +1,4 @@
+../Core/Tracealyzer/trcInterval.c:18:13:xTraceIntervalChannelSetCreate	2
+../Core/Tracealyzer/trcInterval.c:40:13:xTraceIntervalChannelCreate	2
+../Core/Tracealyzer/trcInterval.c:64:13:xTraceIntervalStart	2
+../Core/Tracealyzer/trcInterval.c:80:13:xTraceIntervalStop	1
