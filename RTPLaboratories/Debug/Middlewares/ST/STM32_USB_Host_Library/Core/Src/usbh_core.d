@@ -39,18 +39,18 @@ Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.o: \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcRecorder.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcDefines.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcConfig.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortConfig.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcTypes.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcHardwarePort.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcSnapshotConfig.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortSnapshotConfig.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcKernelPort.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcInterval.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcStateMachine.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcCounter.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcRecorder.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcDefines.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcConfig.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortConfig.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcTypes.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcHardwarePort.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcSnapshotConfig.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortSnapshotConfig.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcKernelPort.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcInterval.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcStateMachine.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcCounter.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
@@ -110,18 +110,18 @@ Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.o: \
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcRecorder.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcDefines.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcConfig.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortConfig.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcTypes.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcHardwarePort.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcSnapshotConfig.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortSnapshotConfig.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcKernelPort.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcInterval.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcStateMachine.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcCounter.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcRecorder.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcDefines.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcConfig.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortConfig.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcTypes.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcHardwarePort.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcSnapshotConfig.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortSnapshotConfig.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcKernelPort.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcInterval.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcStateMachine.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcCounter.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:

@@ -1,8 +1,8 @@
 Core/Tracealyzer/trcInternalEventBuffer.o: \
  ../Core/Tracealyzer/trcInternalEventBuffer.c \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcRecorder.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcDefines.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcConfig.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcRecorder.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcDefines.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcConfig.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
  ../Drivers/CMSIS/Include/core_cm4.h \
@@ -37,12 +37,12 @@ Core/Tracealyzer/trcInternalEventBuffer.o: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortConfig.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcTypes.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcHardwarePort.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcSnapshotConfig.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortSnapshotConfig.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcKernelPort.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortConfig.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcTypes.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcHardwarePort.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcSnapshotConfig.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortSnapshotConfig.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcKernelPort.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
@@ -50,12 +50,12 @@ Core/Tracealyzer/trcInternalEventBuffer.o: \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcInterval.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcStateMachine.h \
- D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcCounter.h
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcRecorder.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcDefines.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcConfig.h:
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcInterval.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcStateMachine.h \
+ D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcCounter.h
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcRecorder.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcDefines.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcConfig.h:
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h:
 ../Drivers/CMSIS/Include/core_cm4.h:
@@ -90,12 +90,12 @@ D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcC
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortConfig.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcTypes.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcHardwarePort.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcSnapshotConfig.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortSnapshotConfig.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcKernelPort.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortConfig.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcTypes.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcHardwarePort.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcSnapshotConfig.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/config/trcKernelPortSnapshotConfig.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcKernelPort.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
@@ -103,6 +103,6 @@ D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trc
 ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcInterval.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcStateMachine.h:
-D:/work/FreeRTOSDiscovery/stm32cube/RTPLaboratories/Core/Tracealyzer/include/trcCounter.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcInterval.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcStateMachine.h:
+D:/work/FreeRTOSDiscovery/RTPLabsTracealyzer/RTPLaboratories/Core/Tracealyzer/include/trcCounter.h:
