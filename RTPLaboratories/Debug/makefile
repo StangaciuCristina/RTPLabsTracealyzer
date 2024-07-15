@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (11.3.rel1)
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -18,7 +18,7 @@ RM := rm -rf
 -include Middlewares/ST/STM32_USB_Host_Library/Core/Src/subdir.mk
 -include Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/subdir.mk
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
--include Core/Tracealyzer/subdir.mk
+-include Core/Tracelyzer/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
 -include Core/Inc/subdir.mk
@@ -70,8 +70,8 @@ all: main-build
 main-build: RTPLaboratories.elf secondary-outputs
 
 # Tool invocations
-RTPLaboratories.elf RTPLaboratories.map: $(OBJS) $(USER_OBJS) D:\work\FreeRTOSDiscovery\stm32cube\RTPLaboratories\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "RTPLaboratories.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\work\FreeRTOSDiscovery\stm32cube\RTPLaboratories\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTPLaboratories.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+RTPLaboratories.elf RTPLaboratories.map: $(OBJS) $(USER_OBJS) D:\work\STM32\RTPLabsTracealyzer\RTPLaboratories\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "RTPLaboratories.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\work\STM32\RTPLabsTracealyzer\RTPLaboratories\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTPLaboratories.map" -Wl,--gc-sections -static -Wl,--no-warn-execstack -Wl,--no-warn-rwx-segments --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
