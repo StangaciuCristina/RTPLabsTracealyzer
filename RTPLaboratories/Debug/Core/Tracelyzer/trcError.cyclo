@@ -1,7 +1,0 @@
-../Core/Tracelyzer/trcError.c:24:13:xTraceErrorInitialize	1
-../Core/Tracelyzer/trcError.c:40:13:xTraceWarning	3
-../Core/Tracelyzer/trcError.c:60:13:xTraceError	4
-../Core/Tracelyzer/trcError.c:89:13:xTraceErrorGetLast	2
-../Core/Tracelyzer/trcError.c:103:13:xTraceErrorClear	2
-../Core/Tracelyzer/trcError.c:117:20:prvTraceErrorPrint	6
-../Core/Tracelyzer/trcError.c:181:20:prvTraceErrorGetDescription	16

@@ -1,3 +1,0 @@
-../Core/Tracelyzer/trcStateMachine.c:19:13:xTraceStateMachineCreate	32	static
-../Core/Tracelyzer/trcStateMachine.c:41:13:xTraceStateMachineStateCreate	40	static
-../Core/Tracelyzer/trcStateMachine.c:65:13:xTraceStateMachineSetState	16	static

@@ -1,3 +1,0 @@
-../Core/Tracelyzer/trcStateMachine.c:19:13:xTraceStateMachineCreate	2
-../Core/Tracelyzer/trcStateMachine.c:41:13:xTraceStateMachineStateCreate	2
-../Core/Tracelyzer/trcStateMachine.c:65:13:xTraceStateMachineSetState	1
