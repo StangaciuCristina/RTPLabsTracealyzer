@@ -74,7 +74,7 @@ const TickType_t xDelay = pdMS_TO_TICKS( 50UL );
 	}
 }
 
-void application16(void)
+inline void application16(void)
 {
 	/* Before a semaphore is used it must be explicitly created.  In this
 	example	a binary semaphore is created. */
