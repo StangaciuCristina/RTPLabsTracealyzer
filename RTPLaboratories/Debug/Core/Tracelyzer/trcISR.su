@@ -1,0 +1,5 @@
+../Core/Tracelyzer/trcISR.c:17:13:xTraceISRInitialize	32	static
+../Core/Tracelyzer/trcISR.c:47:13:xTraceISRRegister	48	static
+../Core/Tracelyzer/trcISR.c:94:13:xTraceISRBegin	40	static,ignoring_inline_asm
+../Core/Tracelyzer/trcISR.c:137:13:xTraceISREnd	40	static,ignoring_inline_asm
+../Core/Tracelyzer/trcISR.c:225:18:xTraceSetISRProperties	24	static

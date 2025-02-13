@@ -1,0 +1,11 @@
+../Core/Tracelyzer/trcObject.c:22:13:xTraceObjectRegisterInternal	12
+../Core/Tracelyzer/trcObject.c:107:13:xTraceObjectRegister	1
+../Core/Tracelyzer/trcObject.c:113:13:xTraceObjectRegister2	1
+../Core/Tracelyzer/trcObject.c:119:13:xTraceObjectUnregister	1
+../Core/Tracelyzer/trcObject.c:155:13:xTraceObjectSetName	4
+../Core/Tracelyzer/trcObject.c:185:13:xTraceObjectRegisterWithoutHandle	1
+../Core/Tracelyzer/trcObject.c:193:13:xTraceObjectRegisterWithoutHandle2	1
+../Core/Tracelyzer/trcObject.c:201:13:xTraceObjectUnregisterWithoutHandle	2
+../Core/Tracelyzer/trcObject.c:225:13:xTraceObjectSetNameWithoutHandle	4
+../Core/Tracelyzer/trcObject.c:252:13:xTraceObjectSetSpecificStateWithoutHandle	2
+../Core/Tracelyzer/trcObject.c:275:13:xTraceObjectSetOptionsWithoutHandle	4

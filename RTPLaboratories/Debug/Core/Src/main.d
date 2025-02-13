@@ -1,4 +1,4 @@
-Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/application0.h \
+Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/application4.h \
  ../Core/Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -41,9 +41,36 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/application0.h \
  ../Core/Tracelyzer/config/trcKernelPortConfig.h \
  ../Core/Tracelyzer/include/trcTypes.h \
  ../Core/Tracelyzer/include/trcHardwarePort.h \
- ../Core/Tracelyzer/config/trcSnapshotConfig.h \
- ../Core/Tracelyzer/config/trcKernelPortSnapshotConfig.h \
+ ../Core/Tracelyzer/config/trcStreamingConfig.h \
+ ../Core/Tracelyzer/config/trcKernelPortStreamingConfig.h \
  ../Core/Tracelyzer/include/trcKernelPort.h \
+ ../Core/Tracelyzer/include/trcHeap.h \
+ ../Core/Tracelyzer/include/trcString.h \
+ ../Core/Tracelyzer/include/trcStaticBuffer.h \
+ ../Core/Tracelyzer/include/trcError.h \
+ ../Core/Tracelyzer/include/trcEvent.h \
+ ../Core/Tracelyzer/include/trcEventBuffer.h \
+ ../Core/Tracelyzer/include/trcMultiCoreEventBuffer.h \
+ ../Core/Tracelyzer/include/trcTimestamp.h \
+ ../Core/Tracelyzer/include/trcEntryTable.h \
+ ../Core/Tracelyzer/include/trcStreamPort.h \
+ ../Core/Tracelyzer/config/trcStreamPortConfig.h \
+ ../Core/Tracelyzer/include/SEGGER_RTT_Conf.h \
+ ../Core/Tracelyzer/include/SEGGER_RTT.h \
+ ../Core/Tracelyzer/include/SEGGER_RTT_Conf.h \
+ ../Core/Tracelyzer/include/trcISR.h ../Core/Tracelyzer/include/trcTask.h \
+ ../Core/Tracelyzer/include/trcObject.h \
+ ../Core/Tracelyzer/include/trcPrint.h \
+ ../Core/Tracelyzer/include/trcExtension.h \
+ ../Core/Tracelyzer/include/trcUtility.h \
+ ../Core/Tracelyzer/include/trcStackMonitor.h \
+ ../Core/Tracelyzer/include/trcInternalEventBuffer.h \
+ ../Core/Tracelyzer/include/trcDiagnostics.h \
+ ../Core/Tracelyzer/include/trcAssert.h \
+ ../Core/Tracelyzer/include/trcRunnable.h \
+ ../Core/Tracelyzer/include/trcDependency.h \
+ ../Core/Tracelyzer/include/trcProcess.h \
+ ../Core/Tracelyzer/include/trcThread.h \
  ../Core/Tracelyzer/include/trcInterval.h \
  ../Core/Tracelyzer/include/trcStateMachine.h \
  ../Core/Tracelyzer/include/trcCounter.h \
@@ -62,7 +89,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/application0.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
  ../USB_HOST/App/usb_host.h
-../Core/Inc/application0.h:
+../Core/Inc/application4.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -107,9 +134,37 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/application0.h \
 ../Core/Tracelyzer/config/trcKernelPortConfig.h:
 ../Core/Tracelyzer/include/trcTypes.h:
 ../Core/Tracelyzer/include/trcHardwarePort.h:
-../Core/Tracelyzer/config/trcSnapshotConfig.h:
-../Core/Tracelyzer/config/trcKernelPortSnapshotConfig.h:
+../Core/Tracelyzer/config/trcStreamingConfig.h:
+../Core/Tracelyzer/config/trcKernelPortStreamingConfig.h:
 ../Core/Tracelyzer/include/trcKernelPort.h:
+../Core/Tracelyzer/include/trcHeap.h:
+../Core/Tracelyzer/include/trcString.h:
+../Core/Tracelyzer/include/trcStaticBuffer.h:
+../Core/Tracelyzer/include/trcError.h:
+../Core/Tracelyzer/include/trcEvent.h:
+../Core/Tracelyzer/include/trcEventBuffer.h:
+../Core/Tracelyzer/include/trcMultiCoreEventBuffer.h:
+../Core/Tracelyzer/include/trcTimestamp.h:
+../Core/Tracelyzer/include/trcEntryTable.h:
+../Core/Tracelyzer/include/trcStreamPort.h:
+../Core/Tracelyzer/config/trcStreamPortConfig.h:
+../Core/Tracelyzer/include/SEGGER_RTT_Conf.h:
+../Core/Tracelyzer/include/SEGGER_RTT.h:
+../Core/Tracelyzer/include/SEGGER_RTT_Conf.h:
+../Core/Tracelyzer/include/trcISR.h:
+../Core/Tracelyzer/include/trcTask.h:
+../Core/Tracelyzer/include/trcObject.h:
+../Core/Tracelyzer/include/trcPrint.h:
+../Core/Tracelyzer/include/trcExtension.h:
+../Core/Tracelyzer/include/trcUtility.h:
+../Core/Tracelyzer/include/trcStackMonitor.h:
+../Core/Tracelyzer/include/trcInternalEventBuffer.h:
+../Core/Tracelyzer/include/trcDiagnostics.h:
+../Core/Tracelyzer/include/trcAssert.h:
+../Core/Tracelyzer/include/trcRunnable.h:
+../Core/Tracelyzer/include/trcDependency.h:
+../Core/Tracelyzer/include/trcProcess.h:
+../Core/Tracelyzer/include/trcThread.h:
 ../Core/Tracelyzer/include/trcInterval.h:
 ../Core/Tracelyzer/include/trcStateMachine.h:
 ../Core/Tracelyzer/include/trcCounter.h:

@@ -1,0 +1,4 @@
+../Core/Tracelyzer/trcCounter.c:17:13:xTraceCounterInitialize	16	static
+../Core/Tracelyzer/trcCounter.c:30:13:xTraceCounterSetCallback	16	static
+../Core/Tracelyzer/trcCounter.c:42:13:xTraceCounterCreate	56	static
+../Core/Tracelyzer/trcCounter.c:69:13:xTraceCounterSet	24	static
