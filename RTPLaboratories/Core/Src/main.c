@@ -17,7 +17,7 @@
 */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include <application6.h>
+#include <application5.h>
 #include "main.h"
 #include "cmsis_os.h"
 #include "usb_host.h"
@@ -133,11 +133,11 @@ int main(void)
 
   /* USER CODE BEGIN RTOS_THREADS */
 	/* add threads, ... */
-	application6();
+  application5();
   /* USER CODE END RTOS_THREADS */
 
   /* Start scheduler */
-  vTaskStartScheduler();
+  //vTaskStartScheduler();
 
   /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
