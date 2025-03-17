@@ -28,10 +28,6 @@ void vPeriodicTask( void *pvParameters )
 	LED = (uint16_t  *)pvParameters;
 	TickType_t xLastWakeTime;
 	const TickType_t xDelay250ms = pdMS_TO_TICKS( 250UL );
-	/* The xLastWakeTime variable needs to be initialized with the current tick
-	count.  Note that this is the only time we access this variable.  From this
-	point on xLastWakeTime is managed automatically by the vTaskDelayUntil()
-	API function. */
 	xLastWakeTime = xTaskGetTickCount();
 
 	/* As per most tasks, this task is implemented in an infinite loop. */
@@ -39,9 +35,6 @@ void vPeriodicTask( void *pvParameters )
 	{
 		/* toggle the right LED. */
 		HAL_GPIO_TogglePin(GPIOD, *LED);
-
-		/* We want this task to execute exactly every 100 milliseconds. */
-		//osDelayUntil(&xLastWakeTime, 100UL);
 		vTaskDelayUntil(&xLastWakeTime,xDelay250ms);
 	}
 }
