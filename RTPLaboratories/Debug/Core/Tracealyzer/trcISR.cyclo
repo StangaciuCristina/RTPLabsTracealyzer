@@ -1,5 +1,5 @@
-../Core/Tracealyzer/trcISR.c:19:13:xTraceISRInitialize	3
-../Core/Tracealyzer/trcISR.c:49:13:xTraceISRRegister	14
-../Core/Tracealyzer/trcISR.c:108:13:xTraceISRBegin	3
-../Core/Tracealyzer/trcISR.c:151:13:xTraceISREnd	4
-../Core/Tracealyzer/trcISR.c:239:18:xTraceSetISRProperties	1
+../Core/Tracealyzer/trcISR.c:17:13:xTraceISRInitialize	3
+../Core/Tracealyzer/trcISR.c:47:13:xTraceISRRegister	6
+../Core/Tracealyzer/trcISR.c:94:13:xTraceISRBegin	3
+../Core/Tracealyzer/trcISR.c:137:13:xTraceISREnd	4
+../Core/Tracealyzer/trcISR.c:225:18:xTraceSetISRProperties	1

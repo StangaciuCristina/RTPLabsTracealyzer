@@ -1,5 +1,4 @@
-../Core/Tracealyzer/trcTask.c:29:13:xTraceTaskInitialize	2
-../Core/Tracealyzer/trcTask.c:48:13:xTraceTaskUnregister	1
-../Core/Tracealyzer/trcTask.c:60:13:xTraceTaskSetPriority	1
-../Core/Tracealyzer/trcTask.c:75:13:xTraceTaskSetPriorityWithoutHandle	2
-../Core/Tracealyzer/trcTask.c:93:13:xTraceTaskSwitch	4
+../Core/Tracealyzer/trcTask.c:27:13:xTraceTaskInitialize	2
+../Core/Tracealyzer/trcTask.c:46:13:xTraceTaskSetPriority	1
+../Core/Tracealyzer/trcTask.c:61:13:xTraceTaskSetPriorityWithoutHandle	2
+../Core/Tracealyzer/trcTask.c:79:13:xTraceTaskSwitch	4

@@ -1,7 +1,7 @@
-../Core/Tracealyzer/trcPrint.c:25:13:xTracePrintInitialize	1
-../Core/Tracealyzer/trcPrint.c:41:13:xTracePrint	5
-../Core/Tracealyzer/trcPrint.c:65:13:xTraceConsoleChannelPrintF	4
-../Core/Tracealyzer/trcPrint.c:92:13:xTracePrintCompactF	13
-../Core/Tracealyzer/trcPrint.c:170:13:xTracePrintF	2
-../Core/Tracealyzer/trcPrint.c:189:13:xTraceVPrintF	8
-../Core/Tracealyzer/trcPrint.c:233:20:prvTraceVPrintF	14
+../Core/Tracealyzer/trcPrint.c:21:13:xTracePrintInitialize	1
+../Core/Tracealyzer/trcPrint.c:37:13:xTracePrint	5
+../Core/Tracealyzer/trcPrint.c:61:13:xTraceConsoleChannelPrintF	4
+../Core/Tracealyzer/trcPrint.c:88:13:xTracePrintCompactF	13
+../Core/Tracealyzer/trcPrint.c:166:13:xTracePrintF	2
+../Core/Tracealyzer/trcPrint.c:185:13:xTraceVPrintF	8
+../Core/Tracealyzer/trcPrint.c:229:20:prvTraceVPrintF	10

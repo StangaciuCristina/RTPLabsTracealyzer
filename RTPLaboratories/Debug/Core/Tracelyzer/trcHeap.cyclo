@@ -1,3 +1,0 @@
-../Core/Tracelyzer/trcHeap.c:16:13:xTraceHeapCreate	1
-../Core/Tracelyzer/trcHeap.c:27:13:xTraceHeapAlloc	5
-../Core/Tracelyzer/trcHeap.c:64:13:xTraceHeapFree	4

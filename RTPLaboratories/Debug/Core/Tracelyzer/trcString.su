@@ -1,2 +1,0 @@
-../Core/Tracelyzer/trcString.c:16:13:xTraceStringRegister	32	static
-../Core/Tracelyzer/trcString.c:48:21:xTraceRegisterString	24	static

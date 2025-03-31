@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (12.3.rel1)
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
 ################################################################################
 
 ELF_SRCS := 
@@ -25,7 +25,7 @@ SUBDIRS := \
 Core/Inc \
 Core/Src \
 Core/Startup \
-Core/Tracelyzer \
+Core/Tracealyzer \
 Drivers/STM32F4xx_HAL_Driver/Src \
 Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src \
 Middlewares/ST/STM32_USB_Host_Library/Core/Src \

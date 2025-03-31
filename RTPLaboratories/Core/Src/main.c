@@ -17,7 +17,7 @@
 */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include <application10.h>
+#include <application4.h>
 #include "main.h"
 #include "cmsis_os.h"
 #include "usb_host.h"
@@ -98,7 +98,7 @@ int main(void)
 
   /* USER CODE BEGIN SysInit */
 
-  vTraceEnable(TRC_START);
+  xTraceEnable(TRC_START);
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
@@ -133,7 +133,7 @@ int main(void)
 
   /* USER CODE BEGIN RTOS_THREADS */
 	/* add threads, ... */
-  application10();
+  application4();
   /* USER CODE END RTOS_THREADS */
 
   /* Start scheduler */

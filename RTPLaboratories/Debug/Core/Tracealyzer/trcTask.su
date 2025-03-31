@@ -1,5 +1,4 @@
-../Core/Tracealyzer/trcTask.c:29:13:xTraceTaskInitialize	24	static
-../Core/Tracealyzer/trcTask.c:48:13:xTraceTaskUnregister	24	static
-../Core/Tracealyzer/trcTask.c:60:13:xTraceTaskSetPriority	24	static
-../Core/Tracealyzer/trcTask.c:75:13:xTraceTaskSetPriorityWithoutHandle	24	static
-../Core/Tracealyzer/trcTask.c:93:13:xTraceTaskSwitch	40	static,ignoring_inline_asm
+../Core/Tracealyzer/trcTask.c:27:13:xTraceTaskInitialize	24	static
+../Core/Tracealyzer/trcTask.c:46:13:xTraceTaskSetPriority	24	static
+../Core/Tracealyzer/trcTask.c:61:13:xTraceTaskSetPriorityWithoutHandle	24	static
+../Core/Tracealyzer/trcTask.c:79:13:xTraceTaskSwitch	40	static,ignoring_inline_asm

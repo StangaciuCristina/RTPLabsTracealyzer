@@ -1,4 +1,4 @@
-../Core/Tracealyzer/trcCounter.c:19:13:xTraceCounterInitialize	16	static
-../Core/Tracealyzer/trcCounter.c:32:13:xTraceCounterSetCallback	16	static
-../Core/Tracealyzer/trcCounter.c:44:13:xTraceCounterCreate	56	static
-../Core/Tracealyzer/trcCounter.c:71:13:xTraceCounterSet	24	static
+../Core/Tracealyzer/trcCounter.c:17:13:xTraceCounterInitialize	16	static
+../Core/Tracealyzer/trcCounter.c:30:13:xTraceCounterSetCallback	16	static
+../Core/Tracealyzer/trcCounter.c:42:13:xTraceCounterCreate	56	static
+../Core/Tracealyzer/trcCounter.c:69:13:xTraceCounterSet	24	static

@@ -1,4 +1,4 @@
-../Core/Tracealyzer/trcExtension.c:27:13:xTraceExtensionInitialize	1
-../Core/Tracealyzer/trcExtension.c:42:13:xTraceExtensionCreate	2
-../Core/Tracealyzer/trcExtension.c:82:13:xTraceExtensionGetBaseEventId	1
-../Core/Tracealyzer/trcExtension.c:101:13:xTraceExtensionGetConfigName	1
+../Core/Tracealyzer/trcExtension.c:25:13:xTraceExtensionInitialize	1
+../Core/Tracealyzer/trcExtension.c:40:13:xTraceExtensionCreate	2
+../Core/Tracealyzer/trcExtension.c:80:13:xTraceExtensionGetBaseEventId	1
+../Core/Tracealyzer/trcExtension.c:99:13:xTraceExtensionGetConfigName	1
