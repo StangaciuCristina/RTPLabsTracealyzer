@@ -20,7 +20,7 @@ static TimerHandle_t xAutoReloadTimer, xOneShotTimer;
 
 static void prvTimerCallback( TimerHandle_t xTimer )
 {
-TickType_t xTimeNow;
+//TickType_t xTimeNow;
 uint32_t ulExecutionCount;
 
 	/* The count of the number of times this software timer has expired is
@@ -31,7 +31,7 @@ uint32_t ulExecutionCount;
 	vTimerSetTimerID( xTimer, ( void * ) ulExecutionCount );
 
 	/* Obtain the current tick count. */
-	xTimeNow = xTaskGetTickCount();
+	//xTimeNow = xTaskGetTickCount();
 
     /* The handle of the one-shot timer was stored in xOneShotTimer when the
 	timer was created.  Compare the handle passed into this function with
@@ -104,5 +104,7 @@ inline void application14(void)
 			the scheduler has been started.  Check both calls to xTimerStart()
 			passed. */
 		}
+		if((xTimer1Started==pdPASS)&&(xTimer2Started==pdPASS))
+					vTaskStartScheduler();
 
 }

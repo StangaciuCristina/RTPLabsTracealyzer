@@ -103,9 +103,12 @@ const TickType_t xDelay = pdMS_TO_TICKS( 50UL );
 
 inline void application18(void)
 {
+	BaseType_t xReturned;
 	const UBaseType_t ulPeriodicTaskPriority = configTIMER_TASK_PRIORITY - 1;
 
 	/* Create the task that will periodically generate a software interrupt. */
-	xTaskCreate( vPeriodicTask, "Periodic", 1000, NULL, ulPeriodicTaskPriority, NULL );
+	xReturned=xTaskCreate( vPeriodicTask, "Periodic", 128, NULL, ulPeriodicTaskPriority, NULL );
+	if(xReturned==pdPASS)
+		vTaskStartScheduler();
 
 }
