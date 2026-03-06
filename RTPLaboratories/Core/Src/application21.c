@@ -4,6 +4,7 @@
 #include "timers.h"
 #include "semphr.h"
 #include "stm32f4xx_it.h"
+#include <stdlib.h>
 
 /* Used as a loop counter to create a very crude delay. */
 #define mainDELAY_LOOP_COUNT		( 0xffffff )
