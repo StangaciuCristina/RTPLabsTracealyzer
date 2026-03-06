@@ -43,8 +43,7 @@ static void vHandlerTask( void *pvParameters )
 			returns having received a notification. */
 			if( ulTaskNotifyTake( pdFALSE, xMaxExpectedBlockTime ) != 0 )
 			{
-				/* To get here the event must have occurred.  Process the event (in
-				this case just print out a message). */
+				/* To get here the event must have occurred. */
 				HAL_GPIO_TogglePin(GPIOD, BLUE_LED);
 			}
 			else
@@ -67,14 +66,7 @@ static void vPeriodicTask( void *pvParameters )
 		is time to generate the software interrupt again. */
 		vTaskDelay( xInterruptFrequency );
 
-		/* Generate the interrupt, printing a message both before and after
-		the interrupt has been generated so the sequence of execution is evident
-		from the output.
-
-		The syntax used to generate a software interrupt is dependent on the
-		FreeRTOS port being used.  The syntax used below can only be used with
-		the FreeRTOS Windows port, in which such interrupts are only
-		simulated. */
+		/* Toggle the LED */
 		HAL_GPIO_TogglePin(GPIOD, GREEN_LED);
 	}
 }
